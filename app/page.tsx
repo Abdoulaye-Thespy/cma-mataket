@@ -76,7 +76,7 @@ export default function Home() {
           </div>
           <div className="hero-card">
             <div className="hero-card-image"><Image src="/dr-njimogna.jpg" alt="Dr Njimogna Loukouman Akim, Medical Director" fill priority sizes="(max-width: 768px) 90vw, 520px" /></div>
-            <div className="doctor-tag"><span>Médecin-Chef</span><strong>Une direction médicale engagée</strong><small>CMA Koutaba-Mataket</small></div>
+            <div className="doctor-tag"><span></span><strong></strong><small>CMA Koutaba-Mataket</small></div>
           </div>
         </div>
       </section>
