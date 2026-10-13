@@ -4,8 +4,7 @@ import { ArrowRight, ChevronLeft, Stethoscope } from 'lucide-react'
 
 const team = [
   { name: 'Dr Njimogna Loukouman Akim', role: 'Médecin-Chef', image: '/dr-njimogna.jpg', bio: 'Direction médicale et coordination des soins du CMA Koutaba-Mataket.' },
-  { name: 'Membre de l’équipe médicale', role: 'Médecin / professionnel de santé', bio: 'Présentation à venir. Notre équipe accompagne les patients avec attention et professionnalisme.' },
-  { name: 'Membre de l’équipe soignante', role: 'Soins infirmiers et accueil', bio: 'Présentation à venir. Une équipe disponible pour vous orienter et vous accompagner.' },
+  { name: 'ADIANG SONE Leonel', role: 'Économe', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-07%20at%2010.55.30-FrzEuH2xFWgya3ObrYONLbI9JPSxTh.jpeg', bio: 'Gestion des fournitures, des matériels et des ressources nécessaires au fonctionnement du CMA.' },
 ]
 
 export default function TeamPage() {

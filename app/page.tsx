@@ -86,10 +86,7 @@ export default function Home() {
             </div>
             <div className="hero-trust"><CheckCircle2 size={18} /> <span>Soins professionnels, respectueux et accessibles</span></div>
           </div>
-          <div className="hero-card">
-            <div className="hero-card-image"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-07%20at%2010.55.30-FrzEuH2xFWgya3ObrYONLbI9JPSxTh.jpeg" alt="ADIANG SONE Leonel, Économe du CMA Koutaba-Mataket" /></div>
-            <div className="doctor-tag"><span></span><strong>ADIANG SONE Leonel</strong><small>Économe</small></div>
-          </div>
+
         </div>
       </section>
 
