@@ -22,10 +22,22 @@ import {
 } from 'lucide-react'
 
 const services = [
-  { icon: Stethoscope, title: 'Médecine générale', text: 'Consultations attentives, diagnostic et suivi pour toute la famille.' },
-  { icon: HeartPulse, title: 'Soins maternels', text: 'Soins prénatals, accouchements et suivi postnatal pour les mères et les bébés.' },
-  { icon: Syringe, title: 'Chirurgie & urgences', text: 'Prise en charge rapide pour les urgences, petites interventions et support chirurgical.' },
-  { icon: ScanLine, title: 'Échographie & diagnostics', text: 'Services diagnostiques accessibles pour aider notre équipe à prendre les meilleures décisions.' },
+  { icon: Stethoscope, title: 'Accueil et urgences', text: 'Accueil, triage, premiers soins, stabilisation et orientation des urgences médicales, chirurgicales et obstétricales.' },
+  { icon: Stethoscope, title: 'Consultation médicale', text: 'Évaluation clinique, diagnostic, traitement et suivi des affections aiguës et chroniques.' },
+  { icon: Bed, title: 'Hospitalisation – médecine', text: 'Surveillance continue, traitements, soins infirmiers et préparation à la sortie ou à la référence.' },
+  { icon: HeartPulse, title: 'Maternité / CPN', text: 'Suivi de grossesse, accouchement, urgences obstétricales, soins au nouveau-né et suivi postnatal.' },
+  { icon: Syringe, title: 'Bloc opératoire / réanimation', text: 'Interventions chirurgicales programmées ou urgentes et surveillance des patients en détresse vitale.' },
+  { icon: ScanLine, title: 'Laboratoire', text: 'Examens d’hématologie, biochimie, parasitologie, sérologie et analyses utiles au diagnostic.' },
+  { icon: Syringe, title: 'Pharmacie', text: 'Gestion, conservation et dispensation sécurisée des médicaments et produits de santé.' },
+  { icon: ScanLine, title: 'Échographie / imagerie médicale', text: 'Examens échographiques obstétricaux, abdominaux, pelviens, rénaux et autres examens indiqués.' },
+  { icon: HeartPulse, title: 'Unité de prise en charge du VIH', text: 'Dépistage, traitement antirétroviral, suivi clinique et biologique, observance et accompagnement psychosocial.' },
+  { icon: Syringe, title: 'Vaccination', text: 'Vaccination des enfants, femmes enceintes et groupes cibles, avec sensibilisation et suivi vaccinal.' },
+  { icon: Stethoscope, title: 'Caisse', text: 'Encaissement et traçabilité des frais liés aux consultations, examens, médicaments et hospitalisations.' },
+  { icon: Bed, title: 'Secrétariat particulier', text: 'Appui administratif auprès du Médecin-Chef, gestion des dossiers, rendez-vous et correspondances.' },
+  { icon: Bed, title: 'Économat', text: 'Réception, stockage et distribution des fournitures et matériels nécessaires au fonctionnement du CMA.' },
+  { icon: Bed, title: 'Régie de recettes', text: 'Collecte, sécurisation, comptabilisation et reversement des recettes selon les procédures en vigueur.' },
+  { icon: Stethoscope, title: 'Surveillance générale', text: 'Supervision quotidienne des services, continuité des soins, gardes, permanences et équipes.' },
+  { icon: HeartPulse, title: 'Aire de santé de Mataket', text: 'Soins de santé primaires, prévention, vaccination, santé maternelle et infantile et santé communautaire.' },
 ]
 
 export default function Home() {
@@ -75,8 +87,8 @@ export default function Home() {
             <div className="hero-trust"><CheckCircle2 size={18} /> <span>Soins professionnels, respectueux et accessibles</span></div>
           </div>
           <div className="hero-card">
-            <div className="hero-card-image"><Image src="/dr-njimogna.jpg" alt="Dr Njimogna Loukouman Akim, Medical Director" fill priority sizes="(max-width: 768px) 90vw, 520px" /></div>
-            <div className="doctor-tag"><span></span><strong></strong><small>CMA Koutaba-Mataket</small></div>
+            <div className="hero-card-image"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-07%20at%2010.55.30-FrzEuH2xFWgya3ObrYONLbI9JPSxTh.jpeg" alt="ADIANG SONE Leonel, Économe du CMA Koutaba-Mataket" /></div>
+            <div className="doctor-tag"><span></span><strong>ADIANG SONE Leonel</strong><small>Économe</small></div>
           </div>
         </div>
       </section>

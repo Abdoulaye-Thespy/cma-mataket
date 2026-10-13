@@ -50,6 +50,7 @@ h1 em { color:var(--green); font-style:normal; }
 .hero-card { position:relative; max-width:480px; justify-self:end; }
 .hero-card-image { height:450px; position:relative; overflow:hidden; border-radius:130px 12px 12px 12px; box-shadow:20px 22px 0 #d4eadf; }
 .hero-card-image img,.doctor-photo img { object-fit:cover; object-position:center 25%; }
+.hero-card-image > img { position:absolute; inset:0; width:100%; height:100%; }
 .doctor-tag { position:absolute; bottom:-22px; left:-35px; background:#fff; padding:18px 25px; min-width:260px; box-shadow:0 15px 35px #0b56301c; border-left:4px solid var(--gold); }
 .doctor-tag span,.doctor-tag small { display:block; color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.1em; }
 .doctor-tag strong { display:block; font-family:Georgia,serif; font-size:17px; margin:6px 0; }
