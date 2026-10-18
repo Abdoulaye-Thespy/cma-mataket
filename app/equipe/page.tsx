@@ -4,10 +4,12 @@ import { ArrowRight, ChevronLeft, Stethoscope } from 'lucide-react'
 
 const team = [
   { name: 'Dr Njimogna Loukouman Akim', role: 'Médecin-Chef', image: '/dr-njimogna.jpg', bio: 'Direction médicale et coordination des soins du CMA Koutaba-Mataket.' },
-  { name: 'ADIANG SONE Leonel', role: 'Économe', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-07%20at%2010.55.30-FrzEuH2xFWgya3ObrYONLbI9JPSxTh.jpeg', bio: 'Gestion des fournitures, des matériels et des ressources nécessaires au fonctionnement du CMA.' },
   { name: 'TCHACHI Rachel Merline', role: 'Surveillant Général', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-14%20at%2011.01.18-3zYon89sg1aowA2eyOfQP7dUNtc8sb.jpeg', bio: 'Supervision quotidienne des services, de la continuité des soins et des équipes.' },
-  { name: 'WIRNKAR Feria Kininla', role: 'Délégué du Personnel', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-14%20at%2011.01.18-og2gyIGpOrUXNxpmwT341PRoTCKu0e.jpeg', bio: 'Représentation et accompagnement du personnel du CMA.' },
+  { name: 'MFOPOU Nouhou', role: 'SGA, Chef de l’Aire de Santé de Mataket et PF/CSU-CS', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-15%20at%2013.58.01-IV9X1HbHQ5GYy490zGiL6XPdDJKETx.jpeg', bio: 'Appui à la coordination administrative et pilotage de l’aire de santé de Mataket.' },
+  { name: 'ADIANG SONE Leonel', role: 'Économe', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-07%20at%2010.55.30-FrzEuH2xFWgya3ObrYONLbI9JPSxTh.jpeg', bio: 'Gestion des fournitures, des matériels et des ressources nécessaires au fonctionnement du CMA.' },
   { name: 'NZIE Assana', role: 'Régisseur de recette', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-14%20at%2011.01.18-qH8ST3e1MeZUpwu2Iy3HDX5yvXBvZU.jpeg', bio: 'Gestion, sécurisation et comptabilisation des recettes du CMA.' },
+  { name: 'WIRNKAR Feria Kininla', role: 'Délégué du Personnel', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-14%20at%2011.01.18-og2gyIGpOrUXNxpmwT341PRoTCKu0e.jpeg', bio: 'Représentation et accompagnement du personnel du CMA.' },
+  { name: 'NDOUKOUO GBETNKOM Amed Jamil', role: 'Secrétaire Particulier', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-10-15%20at%2013.56.50%20%281%29-k50UjCdlvkcxxfPPn289ckCHM7t4C0.jpeg', bio: 'Appui administratif et secrétariat particulier de la direction du CMA.' },
 ]
 
 export default function TeamPage() {
