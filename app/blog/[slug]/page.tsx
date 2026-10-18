@@ -40,7 +40,7 @@ const posts = {
     title: 'Campagne de santé de la Jeunesse Médicale du Noun', date: '02 août 2026', image: '/blog-campagne-1.jpeg',
     paragraphs: ["Le CMA de Koutaba-Mataket a abrité une campagne de santé organisée par la Jeunesse Médicale du Noun du 02 au 09 août 2026 dans l’arrondissement de Koutaba.", "Cette campagne pluridisciplinaire a proposé des consultations et des activités dans plusieurs spécialités, notamment la cardiologie, l’ophtalmologie, la médecine générale, la chirurgie dentaire, la kinésithérapie, l’imagerie et le laboratoire.", "À travers cette mobilisation, les professionnels de santé et les jeunes bénévoles ont rapproché les soins des populations et renforcé la sensibilisation autour de la prévention et du dépistage."],
     credit: 'Campagne organisée du 02 au 09 août 2026 — Jeunesse Médicale du Noun.',
-    gallery: ['/blog-campagne-2.jpeg', '/blog-campagne-3.jpeg']
+    gallery: [ '/blog-campagne-3.jpeg']
   }
 } as const
 
